@@ -1,0 +1,32 @@
+# Bevy-specific files
+target/
+crates/*/target
+**/*.rs.bk
+
+# Cargo.lock file
+Cargo.lock
+
+# Rustfmt backup files
+**/*.rs.bk
+
+# VSCode and IntelliJ IDEA files
+.vscode/
+.idea/
+
+# Firebase authentication keys
+keys.ron
+
+# Bevy Asset files
+assets/**/*.meta
+crates/bevy_asset/imported_assets
+imported_assets
+
+# Generated files
+example_showcase_config.ron
+example-showcase-reports/
+
+# Benches and tests
+benches/target/
+
+# Windows-specific files (MSVC debugging information)
+*.pdb
