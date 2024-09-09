@@ -1,7 +1,9 @@
-mod actors;
+mod components {
+    pub mod actors;
+}
 mod common;
-
 use bevy::prelude::*;
+
 fn main() {
     App::new()
         .add_plugins(
