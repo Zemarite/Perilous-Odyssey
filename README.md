@@ -2,7 +2,7 @@
 
 ## Folder Structure
 
-<code>
+
 my_bevy_game/ <br/>
 │<br/>
 ├── assets/                    # All game assets (images, sounds, models, etc.)<br/>
@@ -28,7 +28,7 @@ my_bevy_game/ <br/>
 ├── Cargo.toml                 # Cargo manifest file<br/>
 ├── Cargo.lock                 # Lock file for dependencies<br/>
 └── README.md                  # Project readme<br/>
-</code>
+
 
 ## Game Key Aspects:
 
